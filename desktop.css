@@ -1,0 +1,136 @@
+
+
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+ /*navbar design starts  */
+.nav-logo{
+    text-align: left;
+
+} 
+.nav-heading h1{
+    text-align: right;
+}
+.nav-manu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-manu a{
+    padding: 5px 10px;
+}
+/*navbar design end*/
+
+
+
+/* .......................... */
+
+
+
+/* profile design starts */
+
+.profile .top-pic{
+    position: absolute;
+    right: 100px;
+    top:20px;
+    transition: 0.4s;
+
+}
+.profile .top-pic:hover{
+    transform: scale(1.2);
+}
+
+.profile .bottom-pic{
+    position: absolute;
+    left: 140px;
+    bottom:20px;
+    transition: 0.4s;
+
+}
+.profile .bottom-pic:hover{
+    transform: scale(1.2);
+}
+
+.profile-desc p{
+    color: black;
+    margin: 0px auto;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+/* profile design end */
+/* .................................. */
+
+
+
+
+
+
+/* about me starts here */
+.about-me-img{
+   margin-top: 100px; 
+}
+
+.about-me-desc p{
+    text-align: left;
+}
+
+/* about me ends here */
+
+/* ..................................... */
+
+
+/* <!--professional mattar starts here  --> */
+
+.professional-experience{
+    padding: 1% 5%;
+}
+/* <!--professional mattar starts here  --> */
+
+
+
+
+/* <!--achievement and contact mattar starts here  --> */
+.achievement{
+    padding-right: 50px;
+}
+.contact button{
+    width: 150px;
+}
+
+.contact-links{
+    position: relative;
+}
+.social-button{
+    position: absolute;
+    margin-top: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* <!--achievement and contact mattar ends here  --> */
+
+
+
+/* footer starts from here */
+.footer-menu{
+    margin-top: 12px;
+
+}
+.footer-menu a{
+    display: inline;
+    margin: 10px;
+}
+
+
+/* footer ends from here */
